@@ -132,7 +132,7 @@ function App() {
 
   function startWebSocket() {
 
-    ws1 = new WebSocket('wss://sig2.onrender.com');
+    ws1 = new WebSocket('wss://gis-395a905fe597.herokuapp.com');
     // let socketAddr = process.env.REACT_APP_SIGNALLING_SERVER;
     // ws1 = new WebSocket(socketAddr);
     ws1.onopen = event => {
