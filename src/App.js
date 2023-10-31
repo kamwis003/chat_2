@@ -49,7 +49,7 @@ function App() {
 
 
   useEffect(() => {    
-    ReactGA.initialize(process.env.REACT_APP_GA_ID);
+    ReactGA.initialize(process.env.G-QCX3G9KSPC);
     ReactGA.send({ hitType: "pageview", page: "/" });
     document.getElementById('toSend').onkeydown = (event) => {
       
