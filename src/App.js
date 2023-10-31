@@ -132,9 +132,9 @@ function App() {
 
   function startWebSocket() {
 
-    // ws1 = new WebSocket('ws://localhost:3030/socket1');
-    let socketAddr = process.env.REACT_APP_SIGNALLING_SERVER;
-    ws1 = new WebSocket(socketAddr);
+    ws1 = new WebSocket('wss://sig2.onrender.com');
+    // let socketAddr = process.env.REACT_APP_SIGNALLING_SERVER;
+    // ws1 = new WebSocket(socketAddr);
     ws1.onopen = event => {
 
       signal1.userId = '';
