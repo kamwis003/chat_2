@@ -133,7 +133,7 @@ function App() {
   function startWebSocket() {
 
     //ws1 = new WebSocket('wss://gis-395a905fe597.herokuapp.com');
-    let socketAddr = 'wss://gis-395a905fe597.herokuapp.com';
+    let socketAddr = 'wss://gis-395a905fe597.herokuapp.com/socket1';
     ws1 = new WebSocket(socketAddr);
     ws1.onopen = event => {
 
