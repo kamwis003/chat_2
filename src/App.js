@@ -284,9 +284,8 @@ function App() {
     let peerId = data1.userId;
     let rtcPeer = new RTCPeerConnection({
       iceServers: [{
-        urls: "stun:openrelay.metered.ca:80",
-      },
-      {
+        url: "stun:stun.1.google.com:19302",
+      }, {
         urls: "turn:openrelay.metered.ca:80",
         username: "openrelayproject",
         credential: "openrelayproject",
